@@ -26,13 +26,13 @@ public class Java_01_Java_Method {
         Java provides some pre-defined methods, such as System.out.println(), but you can also create
         your own methods to perform certain actions:
 
-        Create a method inside the global Class, outside of the main function:
+        Create a method inside the global Class, outside the main function:
 
         Example Explained:
-        - myMethod() is the name of the method
-        - static means that the method belongs to the class and not an object of the class.
+        - "myMethod()" is the name of the method
+        - "static" means that the method belongs to the class and not an object of the class.
           You will learn more about objects and how to access methods through objects later in this tutorial.
-        - void means that this method does not have a return value. You will learn more about return values later
+        - "void" means that this method does not have a return value. You will learn more about return values later
           in this chapter
 
         Call a Method
