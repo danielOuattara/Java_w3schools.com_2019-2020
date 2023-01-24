@@ -54,7 +54,7 @@ public class Java_13_If_Else {
         // Short Hand If...Else (Ternary Operator)
         // ----------------------------------------
 
-        String result = (hours >18) ? "Good Evening !" : "Good Day !" ;
+        String result = hours > 18 ? "Good Evening !" : "Good Day !" ;
         System.out.println(result);
 
     }

@@ -48,7 +48,6 @@ public class Java_07_Data_Types {
         Floating point: containing one or more decimals.
                         (float and double)
 
-
         NOTE: Even though there are many numeric types in Java, the most used are
                -> "int" (for whole numbers)
                -> "double" (for floating point numbers).
@@ -57,19 +56,19 @@ public class Java_07_Data_Types {
         byte myNumByte = 100;
         System.out.println(myNumByte);
 
-        short myNumShort = 5000;
+        short myNumShort = 5_000;
         System.out.println(myNumShort);
 
-        int myNumInt = 100000;
+        int myNumInt = 100_000;
         System.out.println(myNumInt);
 
-        long myNumLong = 15000000000L;
+        long myNumLong = 15_000_000_000L;
         System.out.println(myNumLong);
 
-        float myNumFloat = 5.75f;
+        float myNumFloat = 5.75F;
         System.out.println(myNumFloat);
 
-        double myNumDouble = 19.99d;
+        double myNumDouble = 19.99D;
         System.out.println(myNumDouble);
 
 
@@ -94,7 +93,6 @@ public class Java_07_Data_Types {
         /*
         Non-primitive data types:
         --------------------------
-
         Non-primitive data types are called "reference types" because they refer to objects.
 
         The main difference between "primitive" and "non-primitive" data types are:

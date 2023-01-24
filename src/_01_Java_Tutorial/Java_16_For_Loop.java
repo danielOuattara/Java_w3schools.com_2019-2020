@@ -7,8 +7,8 @@ public class Java_16_For_Loop {
         /* Java For Loop
          =================
 
-        When you know exactly how many times you want to loop through a block of code, use the for loop instead
-        of a while loop:
+        When you know exactly how many times you want to loop through a block of code,
+        use the "for" loop instead of a while loop:
         Syntax
 
         for (statement 1; statement 2; statement 3) {

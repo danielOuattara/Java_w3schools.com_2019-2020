@@ -26,6 +26,7 @@ public class Java_06_Variables {
 
     Where type is one of Java's types (such as int or String), and variableName
     is the name of the variable (such as x or name).
+
     The equal sign = is used to assign values to the variable.
 
     To create a variable that should store text, look at the following example:  */
@@ -53,7 +54,6 @@ public class Java_06_Variables {
 
 /*  Final Variables (constant)
     ----------------------------
-
     However, you can add the final keyword if you don't want others (or yourself) to overwrite existing values
     (this will declare the variable as "final" or "constant", which means unchangeable and read-only):  */
 
@@ -63,7 +63,6 @@ public class Java_06_Variables {
 
 /*  Other Types
     ------------
-
     A demonstration of how to declare variables of other types: */
 
     int myNumber0 = 5;
@@ -77,7 +76,6 @@ public class Java_06_Variables {
 
     Display Variables
     ------------------
-
     The "println()" method is often used to display variables.
     To combine both text and a variable, use the + character:
  */
@@ -108,7 +106,6 @@ public class Java_06_Variables {
 
     Declare Many Variables
     ------------------------
-
     To declare more than one variable of the same type, use a comma-separated list: */
 
     int xx = 5, yy = 6, zz = 50;
@@ -117,7 +114,6 @@ public class Java_06_Variables {
  /*
     Java Identifiers
     -----------------
-
     All Java variables must be identified with unique names.
     These unique names are called identifiers.
     Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
@@ -135,9 +131,9 @@ public class Java_06_Variables {
 
         Names can contain letters, digits, underscores, and dollar signs
         Names must begin with a letter
-        Names should start with a lowercase letter and it cannot contain whitespace
+        Names should start with a lowercase letter, and it cannot contain whitespace
         Names can also begin with $ and _ (but we will not use it in this tutorial)
-        Names are case sensitive ("myVar" and "myvar" are different variables)
+        Names are case-sensitive ("myVar" and "myvar" are different variables)
         Reserved words (like Java keywords, such as int or boolean) cannot be used as names
 */
     }

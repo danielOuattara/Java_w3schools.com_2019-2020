@@ -22,7 +22,7 @@ public class Java_02_Getting_Started {
                             
             Why Use Java?
             --------------                            
-               > Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+               > Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc...)
                > It is one of the most popular programming language in the world
                > It is easy to learn and simple to use
                > It is open-source and free

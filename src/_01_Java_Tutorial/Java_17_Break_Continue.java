@@ -14,7 +14,7 @@ public class Java_17_Break_Continue {
 
         The break statement can also be used to jump out of a loop.
 
-        This example stops the loop when i is equal to 4:   */
+        This example stops the loop when 'i' is equal to 4:   */
 
         for (int i = 0; i < 10; i++) {
           if (i == 4) {
@@ -55,9 +55,7 @@ public class Java_17_Break_Continue {
         }
         System.out.println("-------------------------------------------");
 
-
         // Continue Example
-
         int j = 0;
         while (j < 10) {
           if (j == 4) {
@@ -68,6 +66,5 @@ public class Java_17_Break_Continue {
           j++;
         }
         System.out.println("-------------------------------------------");
-
     }
 }

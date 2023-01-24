@@ -27,7 +27,6 @@ public class Java_10_Strings {
         ---------------------*/
 
         // toUpperCase()
-
         System.out.println(greetings.toUpperCase());
 
 
@@ -36,7 +35,6 @@ public class Java_10_Strings {
 
 
         // Finding a char in a string
-
         System.out.println(greetings.indexOf("w"));
         System.out.println(greetings.indexOf("W"));
         System.out.println(greetings.indexOf("House"));
@@ -44,7 +42,6 @@ public class Java_10_Strings {
 
 
         // String concatenation
-
         String firstName = "John" ;
         String lastName  = "Doe"  ;
 
@@ -52,7 +49,6 @@ public class Java_10_Strings {
 
 
         // String special characters usage
-
         String txt = " C\'est simple comme \\bonjour\\ \"trouves-tu ?\" ";
         System.out.println(txt);
 

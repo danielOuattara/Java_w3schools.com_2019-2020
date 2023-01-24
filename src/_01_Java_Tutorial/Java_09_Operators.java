@@ -65,8 +65,6 @@ public class Java_09_Operators {
         >= 	        Greater than or equal to 	x >= y
         <= 	        Less than or equal to 	    x <= y
 
-
-
         Java Logical Operators
         ------------------------
         Logical operators are used to determine the logic between variables or values:

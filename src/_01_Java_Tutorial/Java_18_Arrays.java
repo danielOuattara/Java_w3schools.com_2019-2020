@@ -6,18 +6,17 @@ public class Java_18_Arrays {
 
         /* Java Arrays
         ================
-
         Arrays are used to store multiple values in a single variable,
         instead of declaring separate variables for each value.
 
         To declare an array, define the variable type with square brackets: */
 
-        String[] cars1;
+        String [] cars1;
 
         /* We have now declared a variable that holds an array of strings. To insert values in it,
            we can use an array literal - place the values in a comma-separated list, inside curly braces: */
 
-        String[] cars2 = {"Volvo", "BMW", "Ford", "Mazda"};
+        String [] cars2 = {"Volvo", "BMW", "Ford", "Mazda"};
 
         /* To create an array of integers, you could write: */
 
@@ -33,9 +32,7 @@ public class Java_18_Arrays {
         String[] cars3 = {"Volvo", "BMW", "Ford", "Mazda"};
         System.out.println(cars3[0]);  // Outputs Volvo
 
-
         /* Note: Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
-
 
         Change an Array Element
         ------------------------
@@ -48,7 +45,6 @@ public class Java_18_Arrays {
 
         /* Array Length
         -----------------
-
         To find out how many elements an array has, use the length property: */
 
         System.out.println(cars4.length);  // Outputs 4
@@ -56,7 +52,6 @@ public class Java_18_Arrays {
 
         /* Loop Through an Array
         -------------------------
-
         You can loop through the array elements with the for loop, and use the length property
         to specify how many times the loop should run.
 
@@ -74,7 +69,7 @@ public class Java_18_Arrays {
         There is also a "for-each" loop, which is used exclusively to loop through elements in arrays:
         Syntax
 
-        for (type variable : arrayname) {
+        for (type variable : arrayName) {
         ...
         }
 
@@ -112,14 +107,24 @@ public class Java_18_Arrays {
         int xx = myNumbers_two[0][1];  // 2
         System.out.println(x); // Outputs 7
 
-        /* We can also use a for loop inside another for loop to get the elements of a two-dimensional
-        array (we still have to point to the two indexes): */
+        System.out.println("-------------------------------");
+        /* We can also use a for loop inside another for loop to get the elements
+        of a two-dimensional array (we still have to point to the two indexes): */
 
         int[][] myNumbers_three = { {1, 2, 3, 4}, {5, 6, 7} };
+
         for (int i = 0; i < myNumbers_three.length; ++i) {
-          for(int j = 0; j < myNumbers_three[i].length; ++j) {
-            System.out.println(myNumbers_three[i][j]);
+            for(int j = 0; j < myNumbers_three[i].length; ++j) {
+              System.out.println(myNumbers_three[i][j]);
           }
+        }
+        // -----------------------------------------------------
+        System.out.println("-------------------------------");
+
+        for (int[] item : myNumbers_three) {
+            for(int value: item) {
+                System.out.println(value);
+            }
         }
     }
 }
