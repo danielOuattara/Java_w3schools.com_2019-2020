@@ -1,22 +1,77 @@
 package _02_Java_Methods;
 
-public class Java_05_Java_Method_Recurion {
+public class Java_05_Java_Method_Recursion {
     //--------------------------------------------------------
-    public static int sum(int k) { // Summing by recursion
+    public static int sum(int k) {
+        // Summing by recursion
         if (k > 0) {
             System.out.println(k);
             return k + sum(k - 1);
-
         } else {
             return 0;
         }
     }
+
     //---------------------------------------------------------
     public static int sum(int start, int end) {
         if (end > start) {
             return end + sum(start, end - 1);
         } else {
             return end;
+        }
+    }
+
+    //---------------------------------------------------------
+
+    public static int factorial(int number) {
+        if (number < 0) {
+            return 0;
+        }
+        if (number == 1 || number == 0) {
+            return 1;
+        }
+        System.out.println(number);
+        return number * factorial(number - 1);
+    }
+
+    //---------------------------------------------------------
+    public static int factorialWhile(int number) {
+
+        while (number > 1) {
+            System.out.println(number);
+            return number * factorialWhile(number - 1);
+        }
+        return number;
+    }
+
+    //---------------------------------------------------------
+    public static int factorialWhile(int end, int start) {
+
+        while (end > start) {
+            System.out.println(end);
+            return end * factorialWhile(end - 1, start);
+        }
+        return end;
+    }
+
+    //---------------------------------------------------------
+
+    public static void backwardCounter(int count) {
+        if (count > 0) {
+            System.out.println("Hi there ! " + count);
+            count--;
+            sayHi(count);
+        } else {
+            System.out.println("Done ! ");
+        }
+    }
+    public static void sayHi(int count) {
+        if (count > 0) {
+            System.out.println("Hi there ! " + count);
+            count--;
+            sayHi(count);
+        } else {
+            System.out.println("Done ! ");
         }
     }
 
@@ -38,11 +93,11 @@ public class Java_05_Java_Method_Recurion {
         recursion is used to add a range of numbers together by breaking
         it down into the simple task of adding two numbers:
 
-        Example: Use recursion to add all of the numbers up to 9. */
+        Example: Use recursion to add all the numbers up to 9. */
 
-
-            int result = sum(9);
-            System.out.println(result);
+        int result = sum(9);
+        System.out.println(result);
+        System.out.println("--------------------");
 
         /* Example Explained
 
@@ -72,9 +127,25 @@ public class Java_05_Java_Method_Recurion {
         In this example, the function adds a range of numbers between a start and an end.
         The halting condition for this recursive function is when end is not greater than start:
 
-        Example: Use recursion to add all of the numbers between 5 to 10. */
+        Example: Use recursion to add all the numbers between 5 and 10. */
 
-            int result2 = sum(5, 10);
-            System.out.println(result);
+        int result2 = sum(5, 10);
+        System.out.println(result);
+        System.out.println("--------------------");
+
+        int factorial_5 = factorial(5);
+        System.out.println(factorial_5);
+        System.out.println("--------------------");
+
+        int factorialWhile_5 = factorialWhile(7);
+        System.out.println(factorialWhile_5);
+        System.out.println("--------------------");
+
+        int factorialWhile_7_2 = factorialWhile(7, 4);
+        System.out.println(factorialWhile_7_2);
+        System.out.println("--------------------");
+
+        System.out.println("----------------------");
+        sayHi(5);
     }
 }

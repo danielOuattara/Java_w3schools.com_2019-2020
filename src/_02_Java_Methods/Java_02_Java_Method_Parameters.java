@@ -18,7 +18,8 @@ public class Java_02_Java_Method_Parameters {
         return x + y;
     }
 
-    static void checkAge(int age) { // If age is less than 18, print "access denied
+    static void checkAge(int age) {
+        // If age is less than 18, print "access denied
         if (age < 18) {
             System.out.println("Access denied - You are not old enough!");
 
@@ -28,35 +29,37 @@ public class Java_02_Java_Method_Parameters {
         }
     }
 
-    static void checkAge2(int age) { // If age is less than 18, print "access denied
+    static void checkAge2(int age) {
+        // If age is less than 18, print "access denied
         String access_OK = "Access granted - You are old enough!";
         String access_NO = "Access denied - You are not old enough!";
-        String output = age > 18 ?  access_OK : access_NO;
+        String output = age > 18 ? access_OK : access_NO;
+        System.out.println(output);
     }
 
-    static void checkAge3(int age) { // If age is less than 18, print "access denied
-        String output =  age > 18 ?
+    static void checkAge3(int age) {
+        // If age is less than 18, print "access denied
+        String output = age > 18 ?
                 "Access granted - You are old enough!" : "Access denied - You are not old enough!";
+        System.out.println(output);
     }
 
     public static void main(String[] args) {
 
-
         /* Parameters and Arguments
          =============================
-
         Information can be passed to methods as parameter. Parameters act as variables inside the method.
         Parameters are specified after the method name, inside the parentheses. You can add as many parameters
-        as you want, just separate them with a comma.
+        as needed, just separate them with a comma.
 
         The following example has a method that takes a String called fname as parameter.
         When the method is called, we pass along a first name, which is used inside the method
         to print the full name: */
 
-            myMethod("Liam");  // Liam Refsnes
-            myMethod("Jenny");  // Jenny Refsnes
-            myMethod("Anja");  // Anja Refsnes
-            System.out.println("---------------------------------------");
+        myMethod("Liam");  // Liam Refsnes
+        myMethod("Jenny");  // Jenny Refsnes
+        myMethod("Anja");  // Anja Refsnes
+        System.out.println("---------------------------------------");
 
        /*
        When a parameter is passed to the method, it is called an argument.
@@ -64,12 +67,12 @@ public class Java_02_Java_Method_Parameters {
 
        Multiple Parameters
        --------------------
-        You can have as many parameters as you like: */
+        You can have as many parameters as needed: */
 
-            myMethod2("Liam", 5);  // Liam is 5
-            myMethod2("Jenny", 8);  // Jenny is 8
-            myMethod2("Anja", 31);  // Anja is 31
-            System.out.println("---------------------------------------");
+        myMethod2("Liam", 5);  // Liam is 5
+        myMethod2("Jenny", 8);  // Jenny is 8
+        myMethod2("Anja", 31);  // Anja is 31
+        System.out.println("---------------------------------------");
 
         /* Note that when you are working with multiple parameters, the method call must have the same number
         of arguments as there are parameters, and the arguments must be passed in the same order.
@@ -88,8 +91,8 @@ public class Java_02_Java_Method_Parameters {
 
         You can also store the result in a variable (recommended, as it is easier to read and maintain): */
 
-            int z = myMethod4(5, 3);
-            System.out.println(z);  // Outputs 8 (5 + 3)
+        int z = myMethod4(5, 3);
+        System.out.println(z);  // Outputs 8 (5 + 3)
 
 
         /* A Method with If...Else
@@ -100,7 +103,13 @@ public class Java_02_Java_Method_Parameters {
         // Create a checkAge() method with an integer variable called age
 
         checkAge(20); // Call the checkAge method and pass along an age of 20
-        checkAge(17); // Call the checkAge method and pass along an age of 20
+        checkAge(17); // Call the checkAge method and pass along an age of 17
+
+        checkAge2(20); // Call the checkAge method and pass along an age of 20
+        checkAge2(17); // Call the checkAge method and pass along an age of 17
+
+        checkAge3(20); // Call the checkAge method and pass along an age of 20
+        checkAge3(17); // Call the checkAge method and pass along an age of 17
 
         // Outputs "Access granted - You are old enough!"
     }

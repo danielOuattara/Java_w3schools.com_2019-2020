@@ -8,7 +8,6 @@ public class Java_01_Java_Method {
 
     public static void main(String[] args) {
 
-
         /* Java Methods
         ================
 
@@ -16,21 +15,22 @@ public class Java_01_Java_Method {
         You can pass data, known as parameters, into a method.
         Methods are used to perform certain actions, and they are also known as functions.
 
-        Why use methods? To reuse code: define the code once, and use it many times.
+        Why to use methods ?
+        To reuse code: define the code once, and use it many times.
 
         Create a Method
         ------------------
         A method must be declared within a class. It is defined with the name of the method,
         followed by parentheses ().
 
-        Java provides some pre-defined methods, such as System.out.println(), but you can also create
-        your own methods to perform certain actions:
+        Java provides some pre-defined methods, such as System.out.println(), but you can also
+        create your own methods to perform certain actions:
 
         Create a method inside the global Class, outside the main function:
 
         Example Explained:
         - "myMethod()" is the name of the method
-        - "static" means that the method belongs to the class and not an object of the class.
+        - "static" means that the method belongs to the class and not to an object of the class.
           You will learn more about objects and how to access methods through objects later in this tutorial.
         - "void" means that this method does not have a return value. You will learn more about return values later
           in this chapter
