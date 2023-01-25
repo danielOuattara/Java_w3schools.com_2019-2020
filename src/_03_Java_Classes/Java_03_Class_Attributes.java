@@ -3,7 +3,6 @@ package _03_Java_Classes;
 public class Java_03_Class_Attributes {
     public static void main(String[] args) {
 
-
         /* Java Class Attributes
         ===========================
         In the previous chapter, we used the term "variable" for x in the example (as shown below).

@@ -2,8 +2,8 @@ package _03_Java_Classes;
 
 public class Java_02_Classes_Objects {
 
-
-        /*Java Classes/Objects
+/*
+        Java Classes/Objects
         ========================
         Java is an object-oriented programming language: everything in Java is associated
         with classes and objects, along with its attributes and methods.
@@ -12,7 +12,6 @@ public class Java_02_Classes_Objects {
         and color, and methods, such as drive and brake.
 
         A Class is like an object constructor, or a "blueprint" for creating objects.
-
 
         Create a Class
         ---------------
@@ -37,15 +36,14 @@ public class Java_02_Classes_Objects {
         In Java, an object is created from a class. We have already created the class
         named Main, so now we can use this class to create objects.
 
-        To create an object from Main class, specify the class name, followed by the object name,
+        To create an object from the Main class, specify the class name, followed by the object name,
         and use the keyword new:
 
         Create an object called "myObj" and print the value of x:
-
         //-------------------------------------------------------------------
 
         public class Main {
-          int x = 5;   // property
+          int x = 5;   // a class property
 
           public static void main(String[] args) {  // method
             Main myObj = new Main();
@@ -58,11 +56,10 @@ public class Java_02_Classes_Objects {
         Multiple Objects
         -----------------
         You can create multiple objects from one class: create two objects from Main:
-
         //---------------------------------------------------------------------
 
         public class Main {
-          int x = 5;  // property
+          int x = 5;  // a class property
 
           public static void main(String[] args) {  // method
             Main myObj1 = new Main();  // Object 1
@@ -73,11 +70,11 @@ public class Java_02_Classes_Objects {
         }
 
         Using Multiple Classes
-        ------------------------
+        -----------------------
         You can also create an object from a class and access it in another class.
-        This is often used for better organization of classes (one class has all
-        the attributes and methods, while the other class holds the main() method
-        (code to be executed)).
+        This is often used for better organization of classes:
+        - one class has all the attributes and methods
+        - another class holds the main() method (code to be executed).
 
         Remember that the name of the java file should match the class name.
         In this example, we have created two files in the same directory/folder:
@@ -120,12 +117,11 @@ public class Java_02_Classes_Objects {
     int x = 5;
     public static void main(String[] args) {
 
-        // create an object from class
-
-        Java_02_Classes_Objects myObj1 = new Java_02_Classes_Objects(); // creating a new object from class Java_02_Classes_Objects
+        // creating a new object from class Java_02_Classes_Objects
+        Java_02_Classes_Objects myObj1 = new Java_02_Classes_Objects();
         System.out.println(myObj1.x);
 
-        // multiple objects from class
+        // multiple objects from classs
 
         Java_02_Classes_Objects myObj2 = new Java_02_Classes_Objects();
         Java_02_Classes_Objects myObj3 = new Java_02_Classes_Objects();
