@@ -1,4 +1,4 @@
-package _03_Java_Classes;
+package _03_Java_Classes.tests;
 
 // 04
 public class Java_Test_2 {
