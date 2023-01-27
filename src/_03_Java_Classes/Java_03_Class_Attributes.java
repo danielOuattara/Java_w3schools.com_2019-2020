@@ -18,17 +18,17 @@ public class Java_03_Class_Attributes {
         }
 
         Another term for class attributes is 'fields'.
+        So attributes and fields are the same.
 
-        Accessing Attributes
-        ---------------------
-        You can access class attributes by creating an object from the class, and then by using
+        Accessing Class Attributes
+        ---------------------------
+        You can access a class attributes by creating an object from that class, and then by using
         the dot syntax (.):
 
         The following example will create an object of the Main class, with the name myObj.
         We use the x attribute on the object to print its value:
 
         Example: Create an object called "myObj" and print the value of x:
-
         //-----------------------------------------------------------
 
         public class Main {
@@ -40,16 +40,14 @@ public class Java_03_Class_Attributes {
           }
         }
 
-        //------------------------------------------------------------
 
-
-        Modify Attributes
-        ------------------
+        Modify Classes Attributes
+        ---------------------------
         You can also modify attribute values:
 
         Example: Set the value of x to 40
-
         //-------------------------------------------
+
         public class Main {
           int x;
 
@@ -60,12 +58,8 @@ public class Java_03_Class_Attributes {
           }
         }
 
-        //--------------------------------------------
-
-
-        Or You can override an existing values:
+         Or You can override an existing values:
         Example: Change the value of x to 25:
-
         //---------------------------------------------
 
         public class Main {
@@ -77,9 +71,6 @@ public class Java_03_Class_Attributes {
             System.out.println(myObj.x);  // 25
           }
         }
-
-        //---------------------------------------------
-
 
         If you don't want the ability to override existing values, declare
         the attribute as 'final':
@@ -100,7 +91,7 @@ public class Java_03_Class_Attributes {
         The 'final' keyword is useful when you want a variable to always store the same value,
         like PI (3.14159...).
 
-        The 'final keyword is called a "modifier". You will learn more about these in the Java
+        The 'final keyword is called an "access modifier". You will learn more about these in the Java
         Modifiers Chapter.
 
 
@@ -124,8 +115,6 @@ public class Java_03_Class_Attributes {
             System.out.println(myObj2.x);  // Outputs 25
           }
         }
-
-        //-----------------------------------------------
 
 
         Multiple Attributes

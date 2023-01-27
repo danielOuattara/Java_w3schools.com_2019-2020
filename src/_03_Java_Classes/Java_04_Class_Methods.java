@@ -8,28 +8,26 @@ public class Java_04_Class_Methods {
         /* Java Class Methods
         =======================
 
-        You learned from the Java Methods chapter that methods are declared within a class,
-        and that they are used to perform certain actions:
+        You learned from the Java Methods chapter that methods are declared
+        within a class, and that they are used to perform certain actions:
 
         Example: Create a method named myMethod() in Main:
 
         //----------------------------------------------------
-
         public class Main {
             static void myMethod() {
                 System.out.println("Hello World!");
             }
         }
-
         //----------------------------------------------------
 
-        myMethod() prints a text (the action), when it is called. To call a method, write the
-        method's name followed by two parentheses () and a semicolon;
+        myMethod() prints a text (the action), when it is called.
+        To call a method, write the method's name followed by two
+        parentheses () and a semicolon;
 
         Example: Inside main, call myMethod():
 
         //-----------------------------------------------------
-
         public class Main {
             static void myMethod() {
                 System.out.println("Hello World!");
@@ -39,21 +37,21 @@ public class Java_04_Class_Methods {
                 myMethod();  // Outputs "Hello World!"
             }
         }
-
         //-----------------------------------------------------
 
 
         Static vs. Non-Static
         ------------------------
-        You will often see Java programs that have either 'static' or 'public' attributes and methods.
+        You will often see Java programs that have either 'static' or 'public'
+        attributes and methods.
 
-        In the example above, we created a static method, which means that it can be accessed without
-        creating an object of the class, unlike public, which can only be accessed by objects.
+        In the example above, we created a static method, which means that it
+        can be accessed without creating an object of the class, unlike public,
+        which can only be accessed by objects.
 
-        Example: An example to demonstrate the differences between static and public methods:
+        Example: An example: the differences between static and public methods:
 
         //-----------------------------------------------------
-
         public class Main {
 
             static void myStaticMethod() {
@@ -66,13 +64,12 @@ public class Java_04_Class_Methods {
 
             public static void main(String[] args) {
                 myStaticMethod(); // Call the static method
-                // myPublicMethod(); This would compile an error
+                // myPublicMethod(); This would compile an error; solution bellow
 
                 Main myObj = new Main(); // Create an object of Main
                 myObj.myPublicMethod(); // Call the public method on the object
             }
         }
-
         //------------------------------------------------------
 
         Note: You will learn more about these keywords (called modifiers) in the Java Modifiers chapter.
@@ -84,7 +81,6 @@ public class Java_04_Class_Methods {
         and run the program:
 
         //------------------------------------------------------
-
         public class Main {
 
             public void fullThrottle() {
@@ -136,9 +132,8 @@ public class Java_04_Class_Methods {
         Remember that the name of the java file should match the class name. In this example, we have
         created two files in the same directory: Main.java & Second.java
 
-        Main.java
-        //----------------------------------------------
 
+        //---------------------------------------------- Main.java
         public class Main {
 
             public void fullThrottle() {
@@ -150,24 +145,24 @@ public class Java_04_Class_Methods {
             }
         }
 
-        Second.java
-        //----------------------------------------------
+
+        //---------------------------------------------- Second.java
 
         class Second {
 
             public static void main(String[] args) {
-                Main myCar = new Main();     // Create a myCar object
-                myCar.fullThrottle();      // Call the fullThrottle() method
-                myCar.speed(200);          // Call the speed() method
+                Main myCar = new Main();     // Create a myCar object from Main class <---
+                myCar.fullThrottle();        // Call the fullThrottle() method
+                myCar.speed(200);            // Call the speed() method
             }
         }
 
         When both files have been compiled:
-        C:\Users\Your Name>javac Main.java
-        C:\Users\Your Name>javac Second.java
+        > javac Main.java
+        > javac Second.java
 
         Run the Second.java file:
-        C:\Users\Your Name>java Second
+        > java Second
 
         And the output will be:
         The car is going as fast as it can!
