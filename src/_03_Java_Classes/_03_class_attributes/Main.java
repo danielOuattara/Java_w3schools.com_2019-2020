@@ -1,6 +1,6 @@
-package _03_Java_Classes;
+package _03_Java_Classes._03_class_attributes;
 
-public class Java_03_Class_Attributes {
+public class Main {
     public static void main(String[] args) {
 
         /* Java Class Attributes

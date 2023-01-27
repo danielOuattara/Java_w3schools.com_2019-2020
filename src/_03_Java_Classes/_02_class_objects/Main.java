@@ -1,6 +1,6 @@
-package _03_Java_Classes;
+package _03_Java_Classes._02_class_objects;
 
-public class Java_02_Classes_Objects {
+public class Main {
 
 /*
         Java Classes/Objects
@@ -118,13 +118,13 @@ public class Java_02_Classes_Objects {
     public static void main(String[] args) {
 
         // creating a new object from class Java_02_Classes_Objects
-        Java_02_Classes_Objects myObj1 = new Java_02_Classes_Objects();
+        Main myObj1 = new Main();
         System.out.println(myObj1.x);
 
         // multiple objects from classs
 
-        Java_02_Classes_Objects myObj2 = new Java_02_Classes_Objects();
-        Java_02_Classes_Objects myObj3 = new Java_02_Classes_Objects();
+        Main myObj2 = new Main();
+        Main myObj3 = new Main();
 
         System.out.println(myObj2.x);
         System.out.println(myObj3.x);

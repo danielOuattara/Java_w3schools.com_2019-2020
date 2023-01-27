@@ -1,6 +1,6 @@
-package _03_Java_Classes;
+package _03_Java_Classes._05_constructors;
 
-public class Java_05_Constructors {
+public class Main {
 
     public static void main(String[] args) {
 /*

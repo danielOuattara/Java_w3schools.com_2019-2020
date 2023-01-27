@@ -1,6 +1,6 @@
-package _03_Java_Classes;
+package _03_Java_Classes._04_class_methods;
 
-public class Java_04_Class_Methods {
+public class Main {
 
     public static void main(String[] args) {
 

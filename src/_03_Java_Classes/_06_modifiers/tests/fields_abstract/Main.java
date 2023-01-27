@@ -1,4 +1,4 @@
-package _03_Java_Classes.tests._06_modifiers.fields_abstract;
+package _03_Java_Classes._06_modifiers.tests.fields_abstract;
 
 // abstract class
 abstract class Main {

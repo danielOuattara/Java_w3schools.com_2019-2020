@@ -1,9 +1,9 @@
-package _03_Java_Classes.tests._06_modifiers;
+package _03_Java_Classes._06_modifiers.tests;
 
 // import _03_Java_Classes.tests._06_modifiers.classes_default.MainDefault;
-import _03_Java_Classes.tests._06_modifiers.classes_public.MainPublic;
-import _03_Java_Classes.tests._06_modifiers.fields_public_private_default_protected.CarFields;
-import _03_Java_Classes.tests._06_modifiers.fields_public_private_default_protected.FoodFields;
+import _03_Java_Classes._06_modifiers.tests.classes_public.MainPublic;
+import _03_Java_Classes._06_modifiers.tests.fields_public_private_default_protected.CarFields;
+import _03_Java_Classes._06_modifiers.tests.fields_public_private_default_protected.FoodFields;
 
 public class MainRoot {
     public static void main(String[] args) {

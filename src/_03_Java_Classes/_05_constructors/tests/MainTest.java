@@ -1,4 +1,4 @@
-package _03_Java_Classes.tests._05_contstructors;
+package _03_Java_Classes._05_constructors.tests;
 
 // public class Java_05_Constructors_Test_Zone {
 //     int x;  // Create a class attribute
@@ -30,19 +30,19 @@ package _03_Java_Classes.tests._05_contstructors;
 
 //------------------------------------------------------------------------
 
-public class Java_Constructors_Test_Zone {
+public class MainTest {
     int modelYear;
     String modelName;
     String brandName;
 
-    public Java_Constructors_Test_Zone(int modelYear, String name, String brand) {
+    public MainTest(int modelYear, String name, String brand) {
         this.modelYear = modelYear;
         modelName = name;
         brandName = brand;
     }
 
     public static void main(String[] args) {
-        Java_Constructors_Test_Zone myCar = new Java_Constructors_Test_Zone(1969, "Mustang", "Ford");
+        MainTest myCar = new MainTest(1969, "Mustang", "Ford");
         System.out.println("My car is a " + myCar.brandName + " " + myCar.modelName + " " + myCar.modelYear + " ");
     }
 }

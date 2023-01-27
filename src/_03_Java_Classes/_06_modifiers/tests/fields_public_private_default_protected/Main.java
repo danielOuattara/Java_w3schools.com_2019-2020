@@ -1,4 +1,4 @@
-package _03_Java_Classes.tests._06_modifiers.fields_public_private_default_protected;
+package _03_Java_Classes._06_modifiers.tests.fields_public_private_default_protected;
 
 public class Main {
     public static void main(String[] args) {

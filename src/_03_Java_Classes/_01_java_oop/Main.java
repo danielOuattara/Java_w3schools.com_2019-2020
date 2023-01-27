@@ -1,6 +1,6 @@
-package _03_Java_Classes;
+package _03_Java_Classes._01_java_oop;
 
-public class Java_01_Java_OOP {
+public class Main {
     public static void main(String[] args) {
 
         /* Java - What is OOP ?
