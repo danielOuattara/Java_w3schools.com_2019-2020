@@ -1,8 +1,8 @@
-package _04_Java_File_Handling;
+package _04_Java_File_Handling._04_delete_files;
 
 import java.io.File;  // Import the File class
 
-public class Java_04_Delete_files {
+public class Main {
     public static void main(String[] args) {
 
 /*      Java Delete Files
@@ -20,8 +20,6 @@ public class Java_04_Delete_files {
         }
 
         /*    You can also delete a folder. However, it must be empty: */
-
-
 
         File folderOne = new File("delete-folder-test");
         if (folderOne.delete()) {
