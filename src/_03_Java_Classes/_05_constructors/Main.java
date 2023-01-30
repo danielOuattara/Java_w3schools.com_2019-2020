@@ -6,14 +6,11 @@ public class Main {
 /*
         Java Constructors
         ======================
-
         A constructor in Java is a special method that is used to initialize objects.
         The constructor is called when an object of a class is created.
         It can be used to set initial values for object attributes:
 
         Create a constructor:
-        ----------------------
-
         //-------------------------------------------------
         public class Main {
             int x;  // Create a class attribute
@@ -25,20 +22,18 @@ public class Main {
 
             public static void main(String[] args) {
                 Main myObj = new Main(); // Create an object of class Main (This will call the constructor)
-                System.out.println(myObj.x); // Print the value of x
+                System.out.println(myObj.x); // Print the value of x: Outputs 5
             }
         }
-        //------------------------------------------------- // Outputs 5
 
         Notes: - The constructor name must match the class name,
-                 and it cannot have a return type (like void).
+                 and it cannot have a return type.
 
                - Also note that the constructor is called when the object is created.
 
                - All classes have constructors by default: if you do not create
                  a class constructor yourself, Java creates one for you.
                  However, then you are not able to set initial values for object attributes.
-
 
         Constructor Parameters
         -----------------------

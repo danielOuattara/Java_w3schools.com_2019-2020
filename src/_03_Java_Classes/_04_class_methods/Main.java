@@ -7,12 +7,10 @@ public class Main {
 
         /* Java Class Methods
         =======================
-
         You learned from the Java Methods chapter that methods are declared
         within a class, and that they are used to perform certain actions:
 
         Example: Create a method named myMethod() in Main:
-
         //----------------------------------------------------
         public class Main {
             static void myMethod() {
@@ -26,7 +24,6 @@ public class Main {
         parentheses () and a semicolon;
 
         Example: Inside main, call myMethod():
-
         //-----------------------------------------------------
         public class Main {
             static void myMethod() {
@@ -50,10 +47,8 @@ public class Main {
         which can only be accessed by objects.
 
         Example: An example: the differences between static and public methods:
-
         //-----------------------------------------------------
         public class Main {
-
             static void myStaticMethod() {
                 System.out.println("Static methods can be called without creating objects");
             }
@@ -74,7 +69,6 @@ public class Main {
 
         Note: You will learn more about these keywords (called modifiers) in the Java Modifiers chapter.
 
-
         Access Methods With an Object
         ------------------------------
         Create a Car object named myCar. Call the fullThrottle() and speed() methods on the myCar object,
@@ -82,7 +76,6 @@ public class Main {
 
         //------------------------------------------------------
         public class Main {
-
             public void fullThrottle() {
                 System.out.println("The car is going as fast as it can!");
             }
