@@ -13,8 +13,10 @@ public class Java_18_Arrays {
 
         String [] cars1;
 
-        /* We have now declared a variable that holds an array of strings. To insert values in it,
-           we can use an array literal - place the values in a comma-separated list, inside curly braces: */
+        /*
+        We have now declared a variable that holds an array of strings.
+        To insert values in it, we can use an array literal: place the
+        values in a comma-separated list, inside curly braces: */
 
         String [] cars2 = {"Volvo", "BMW", "Ford", "Mazda"};
 
@@ -32,7 +34,9 @@ public class Java_18_Arrays {
         String[] cars3 = {"Volvo", "BMW", "Ford", "Mazda"};
         System.out.println(cars3[0]);  // Outputs Volvo
 
-        /* Note: Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
+        /*
+        Note: Array indexes start with 0: [0] is the first element.
+        [1] is the second element, etc.
 
         Change an Array Element
         ------------------------
@@ -52,8 +56,8 @@ public class Java_18_Arrays {
 
         /* Loop Through an Array
         -------------------------
-        You can loop through the array elements with the for loop, and use the length property
-        to specify how many times the loop should run.
+        You can loop through the array elements with the for loop, and use the
+        length property to specify how many times the loop should run.
 
         The following example outputs all elements in the cars array: */
 
@@ -66,25 +70,28 @@ public class Java_18_Arrays {
         /*Loop Through an Array with For-Each
         --------------------------------------
 
-        There is also a "for-each" loop, which is used exclusively to loop through elements in arrays:
-        Syntax
+        There is also a "for-each" loop, which is used exclusively to loop
+        through elements in arrays:
 
         for (type variable : arrayName) {
         ...
         }
 
-        The following example outputs all elements in the cars array, using a "for-each" loop: */
+        The following example outputs all elements in the cars array, using
+        a "for-each" loop: */
 
         String[] cars6 = {"Volvo", "BMW", "Ford", "Mazda"};
         for (String item : cars6) {
         System.out.println(item);
         }
 
-        /* The example above can be read like this: for each String element, called item in cars,
-           print out the value of i.
+        /*
+        The example above can be read like this: for each String element,
+        called item in cars, print out the value of i.
 
-        If you compare the for loop and for-each loop, you will see that the for-each method is easier
-        to write, it does not require a counter (using the length property), and it is more readable.
+        If you compare the for loop and for-each loop, you will see that the
+        for-each method is easier to write, it does not require a counter
+        (using the length property), and it is more readable.
 
 
         Multidimensional Arrays
@@ -92,15 +99,17 @@ public class Java_18_Arrays {
 
         A multidimensional array is an array of arrays.
 
-        To create a two-dimensional array, add each array within its own set of curly braces: */
+        To create a two-dimensional array, add each array within its own set
+        of curly braces: */
 
         int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
 
         /* myNumbers is now an array with two arrays as its elements.
 
-        To access the elements of the myNumbers array, specify two indexes: one for the array,
-        and one for the element inside that array. This example accesses the third element (2)
-        in the second array (1) of myNumbers: */
+        To access the elements of the myNumbers array, specify two indexes:
+        one for the array, and one for the element inside that array.
+        This example accesses the third element (2) in the second array
+        (1) of myNumbers: */
 
         int[][] myNumbers_two = { {1, 2, 3, 4}, {5, 6, 7} };
         int x = myNumbers_two[1][2];  // 7
