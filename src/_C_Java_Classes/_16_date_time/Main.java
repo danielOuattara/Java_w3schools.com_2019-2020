@@ -23,19 +23,28 @@ package _C_Java_Classes._16_date_time;
     Display Current Date
     ---------------------
     To display the current date, import the java.time.LocalDate class,
-    and use its now() method: */
+    and use its 'now()' method: */
 
-//import java.time.LocalDate; // import the LocalDate class
+import java.time.LocalDate; // import the LocalDate class
 //
 //public class Main {
 //    public static void main(String[] args) {
+//
+//        System.out.println(LocalDate.of(1983, 11, 15));
+//        System.out.println(LocalDate.ofYearDay(1983, 255));
+//
 //        LocalDate myObj = LocalDate.now(); // Create a date object
 //        System.out.println(myObj); // Display the current date
+//        System.out.println(LocalDate.MAX);
+//        System.out.println(LocalDate.MIN);
+//        System.out.println(LocalDate.EPOCH);
+//        System.out.println(LocalDate.now().getDayOfYear());
+//
+//        System.out.println("myObj = " + myObj);
 //    }
 //}
 
     /*
-    The output will be: 2023-01-30
 
     Display Current Time
     ---------------------
@@ -52,7 +61,6 @@ package _C_Java_Classes._16_date_time;
 //}
 
      /*
-     The output will be: 10:21:36.949013
 
     Display Current Date and Time
     ------------------------------
@@ -88,8 +96,8 @@ public class Main {
     public static void main(String[] args) {
         LocalDateTime myDateObj = LocalDateTime.now();
         System.out.println("Before formatting: " + myDateObj);
-        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
+        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDate = myDateObj.format(myFormatObj);
         System.out.println("After formatting: " + formattedDate);
     }
@@ -101,7 +109,7 @@ public class Main {
         The ofPattern() method accepts all sorts of values,if you want to display
         the date and time in a different format.
 
-        VALUE           Exmaple
+        VALUE           Example
         ----------      --------------
         yyyy-MM-dd      "1988-09-29"
         dd/MM/yyyy      "29/09/1988"
