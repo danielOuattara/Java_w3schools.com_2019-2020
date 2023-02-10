@@ -1,4 +1,4 @@
-package _C_Java_Classes._17_arrayList;
+package _C_Java_Classes._17_ArrayList;
 
 import java.util.ArrayList; // import the ArrayList class
 import java.util.Collections;
