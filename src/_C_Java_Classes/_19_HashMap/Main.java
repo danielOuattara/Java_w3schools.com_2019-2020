@@ -17,18 +17,21 @@ public class Main {
     can access them by an index of another type (e.g. a String).
 
     One object is used as a key (index) to another object (value).
-    It can store different types: String keys and Integer values,
-    or the same type, like: String keys and String values:
+
+    HashMap can store key/value of the same type OR from mixed
+    typed :
+    - String keys and Integer values,
+    - String keys and String values:
 
     Create a HashMap object called capitalCities that will store
-    String keys and String values*/
+    String keys and String values */
 
         HashMap<String, String> capitalCities = new HashMap<String, String>();
 
    /* Add Items
    ------------
     The HashMap class has many useful methods. For example, to add
-    items to it, use the 'put()' method: */
+    items use the 'put()' method: */
 
         // Add keys and values (Country, City)
         capitalCities.put("England", "London");
@@ -48,7 +51,7 @@ public class Main {
 
     /* Remove an Item
     -------------------
-    To remove an item, use the 'remove()' method and refer to the key */
+    To remove an item use the 'remove()' method and refer to the key */
         capitalCities.remove("England");
         System.out.println(capitalCities);
         System.out.println("------------------------");
@@ -67,6 +70,7 @@ public class Main {
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
+
         System.out.println(capitalCities);
         System.out.println("capitalCities.size() = " + capitalCities.size());
         System.out.println("------------------------");
@@ -122,8 +126,6 @@ public class Main {
         for (String i : people.keySet()) {
             System.out.println("key: " + i + " value: " + people.get(i));
         }
-
         System.out.println("------------------------");
-
     }
 }
