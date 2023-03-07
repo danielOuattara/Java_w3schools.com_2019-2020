@@ -44,7 +44,7 @@ public class Main {
 
     /* The output will be something like this:
     Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-            at Main.main(Main.java:4)
+            at Main.main(Main.java:43)
 
     If an error occurs, we can use try...catch to catch the error
     and execute some code to handle it:
@@ -54,10 +54,10 @@ public class Main {
             int[] myNumbers = {1, 2, 3};
             System.out.println(myNumbers[10]);
         } catch (Exception e) {
-            System.out.println("Something went wrong.");
+            System.out.println("Something went wrong n°1.");
         }
 
-    /* The output will be: Something went wrong.
+    /* The output will be: Something went wrong n°1.
 
     finally
     -------
@@ -68,20 +68,20 @@ public class Main {
             int[] myNumbers = {1, 2, 3};
             System.out.println(myNumbers[10]);
         } catch (Exception e) {
-            System.out.println("Something went wrong.");
+            System.out.println("Something went wrong n°2.");
         } finally {
             System.out.println("The 'try catch' is finished.");
         }
 
     /* The output will be:
-            Something went wrong.
+            Something went wrong n°2.
             The 'try catch' is finished.
 
 
     The throw keyword
     ------------------
-    The throw statement allows you to create a custom error.
-    The throw statement is used together with an exception type.
+    The 'throw' statement allows you to create a custom error.
+    The 'throw' statement is used together with an exception type.
     There are many exception types available in Java:
      - ArithmeticException,
      - FileNotFoundException,
