@@ -24,7 +24,7 @@ public class Java_04_Syntax {
         -----------------
         The main() method is required, and you will see it in every Java program:
 
-        public static void main(String[] args)
+        public static void main(String[] args){}
 
         Any code inside the main() method will be executed. Don't worry about
         the keywords before and after main. You will get to know them bit by bit

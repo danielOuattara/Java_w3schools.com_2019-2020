@@ -31,71 +31,71 @@ public class Java_06_Variables {
 
     To create a variable that should store text, look at the following example:  */
 
-    String name = "John";
-    System.out.println(name);
+        String name = "John";
+        System.out.println(name);
 
-// To create a variable that should store a number, look at the following example:  */
+        /* To create a variable that should store a number, look at the following example:  */
 
-    int myNumber1 = 15;
-    System.out.println(myNumber1);
+        int myNumber1 = 15;
+        System.out.println(myNumber1);
 
-/* You can also declare a variable without assigning the value, and assign the value later: */
+        /* You can also declare a variable without assigning the value, and assign the value later: */
 
-    int myNumber2;
-    myNumber2 = 15;
-    System.out.println(myNumber2);
+        int myNumber2;
+        myNumber2 = 15;
+        System.out.println(myNumber2);
 
-/* Note that if you assign a new value to an existing variable, it will overwrite the previous value: */
+        /* Note that if you assign a new value to an existing variable, it will overwrite the previous value: */
 
-    int myNumber3 = 15;
-    myNumber3 = 20;  // myNumber3 is now 20
-    System.out.println(myNumber3);
-
-
-/*  Final Variables (constant)
-    ----------------------------
-    However, you can add the final keyword if you don't want others (or yourself) to overwrite existing values
-    (this will declare the variable as "final" or "constant", which means unchangeable and read-only):  */
-
-    final int myNum = 15;
-    // myNum = 20;  // will generate an error: cannot assign a value to a final variable
+        int myNumber3 = 15;
+        myNumber3 = 20;  // myNumber3 is now 20
+        System.out.println(myNumber3);
 
 
-/*  Other Types
-    ------------
-    A demonstration of how to declare variables of other types: */
+    /*  Final Variables (constant)
+        ----------------------------
+        However, you can add the final keyword if you don't want others (or yourself) to overwrite existing values
+        (this will declare the variable as "final" or "constant", which means unchangeable and read-only):  */
 
-    int myNumber0 = 5;
-    float myFloatNum = 5.99f;
-    char myLetter = 'D';
-    boolean myBool = true;
-    String myText = "Hello";
+        final int myNum = 15;
+        // myNum = 20;  // will generate an error: cannot assign a value to a final variable
+
+
+    /*  Other Types
+        ------------
+        A demonstration of how to declare variables of other types: */
+
+        int myNumber0 = 5;
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+        String myText = "Hello";
 
    /* You will learn more about data types in the next chapter.
 
 
-    Display Variables
-    ------------------
-    The "println()" method is often used to display variables.
-    To combine both text and a variable, use the + character:
- */
+        Display Variables
+        ------------------
+        The "println()" method is often used to display variables.
+        To combine both text and a variable, use the + character:
+     */
 
-    String john = "John";
-    System.out.println("Hello " + john);
+        String john = "John";
+        System.out.println("Hello " + john);
 
-    /* You can also use the + character to add a variable to another variable:  */
+        /* You can also use the + character to add a variable to another variable:  */
 
-    String firstName = "John ";
-    String lastName = "Doe";
-    String fullName = firstName + lastName;
-    System.out.println(fullName);
+        String firstName = "John ";
+        String lastName = "Doe";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
 
     /* For numeric values, the + character works as a mathematical operator (notice that we use
     int (integer) variables here): */
 
-    int x = 5;
-    int y = 6;
-    System.out.println(x + y); // Print the value of x + y
+        int x = 5;
+        int y = 6;
+        System.out.println(x + y); // Print the value of x + y
 
     /* From the example above, you can expect:
 
@@ -108,8 +108,8 @@ public class Java_06_Variables {
     ------------------------
     To declare more than one variable of the same type, use a comma-separated list: */
 
-    int xx = 5, yy = 6, zz = 50;
-    System.out.println(xx + yy + zz);
+        int xx = 5, yy = 6, zz = 50;
+        System.out.println(xx + yy + zz);
 
  /*
     Java Identifiers
@@ -120,11 +120,11 @@ public class Java_06_Variables {
 
     Note: It is recommended to use descriptive names in order to create understandable and maintainable code: */
 
-    // Good
-    int minutesPerHour = 60;
+        // Good
+        int minutesPerHour = 60;
 
-    // OK, but not so easy to understand what m actually is
-    int m = 60;
+        // OK, but not so easy to understand what m actually is
+        int m = 60;
 
 /*
     The general rules for naming variables are:

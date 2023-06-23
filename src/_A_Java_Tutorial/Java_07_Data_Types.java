@@ -110,7 +110,7 @@ public class Java_07_Data_Types {
            >  Non-primitive types have all the same size while the size of a primitive type
               depends on the data type
 
-           Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc... */
+           Examples of non-primitive types are: Strings, Arrays, Classes, Interface, etc... */
 
         String greeting = "Hello World";
         System.out.println(greeting);
