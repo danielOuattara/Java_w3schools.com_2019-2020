@@ -13,8 +13,8 @@ public class Java_13_If_Else {
 
         int x = 18;
         int y = 20;
-        if( x < y) {
-            System.out.println( x + " is smaller than" +  y);
+        if (x < y) {
+            System.out.println(x + " is smaller than" + y);
         }
         System.out.println("----------");
 
@@ -43,7 +43,7 @@ public class Java_13_If_Else {
 
         if (hours < 10) {
             System.out.println("Good morning !");
-        } else if( hours < 20) {
+        } else if (hours < 20) {
             System.out.println("Good Day !");
         } else {
             System.out.println("Good evening !");
@@ -54,7 +54,7 @@ public class Java_13_If_Else {
         // Short Hand If...Else (Ternary Operator)
         // ----------------------------------------
 
-        String result = hours > 18 ? "Good Evening !" : "Good Day !" ;
+        String result = hours > 18 ? "Good Evening !" : "Good Day !";
         System.out.println(result);
 
     }
