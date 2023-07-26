@@ -7,7 +7,7 @@ public class Java_14_Switch {
         // Switch
         // ------
 
-        int day= 7;
+        int day = 7;
         switch (day) {
             case 1:
                 System.out.println("Monday");
