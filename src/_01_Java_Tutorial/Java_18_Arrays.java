@@ -1,5 +1,7 @@
 package _01_Java_Tutorial;
 
+import java.util.Arrays;
+
 public class Java_18_Arrays {
     public static void main(String[] args) {
 
@@ -13,9 +15,9 @@ public class Java_18_Arrays {
 
         String[] cars1;
 
-
         /*
         We have now declared a variable that holds an array of strings.
+
         To insert values in it, we can use an array literal: place the
         values in a comma-separated list, inside curly braces: */
 
@@ -24,6 +26,7 @@ public class Java_18_Arrays {
         /* To create an array of integers, you could write: */
 
         int[] myNum = {10, 20, 30, 40};
+        System.out.println(Arrays.toString(myNum));
 
 
         /* Access the Elements of an Array
@@ -33,7 +36,7 @@ public class Java_18_Arrays {
         This statement accesses the value of the first element in cars: */
 
         String[] cars3 = {"Volvo", "BMW", "Ford", "Mazda"};
-        System.out.println(cars3[0]);  // Outputs Volvo
+        System.out.println(cars3[0]);  //  Volvo
 
         /*
         Note: Array indexes start with 0: [0] is the first element.
