@@ -38,7 +38,7 @@ public class Main {
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
-        System.out.println(capitalCities);
+        System.out.println("capitalCities :" + capitalCities);
         System.out.println("------------------------");
 
     /* Access an Item
@@ -53,14 +53,14 @@ public class Main {
     -------------------
     To remove an item use the 'remove()' method and refer to the key */
         capitalCities.remove("England");
-        System.out.println(capitalCities);
+        System.out.println("capitalCities :" + capitalCities);
         System.out.println("------------------------");
 
     /* Remove all items:
      -------------------
      use the 'clear()' method */
         capitalCities.clear();
-        System.out.println(capitalCities);
+        System.out.println("capitalCities : " + capitalCities);
         System.out.println("------------------------");
 
     /* HashMap Size
@@ -71,7 +71,7 @@ public class Main {
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
 
-        System.out.println(capitalCities);
+        System.out.println("capitalCities :" + capitalCities);
         System.out.println("capitalCities.size() = " + capitalCities.size());
         System.out.println("------------------------");
 
@@ -83,13 +83,13 @@ public class Main {
     - Use the 'keySet()' method if you only want the keys,
     - Use the values() method if you only want the values:*/
 
-        // Print keys
+        // Print keys: Country
         for (String i : capitalCities.keySet()) {
             System.out.println(i);
         }
         System.out.println("------------------------");
 
-        // Print values
+        // Print values : City
         for (String i : capitalCities.values()) {
             System.out.println(i);
         }
@@ -97,9 +97,11 @@ public class Main {
 
         // Print keys and values
         for (String i : capitalCities.keySet()) {
-            System.out.println("key: " + i + " value: " + capitalCities.get(i));
+            System.out.println("key: " + i + ", value: " + capitalCities.get(i));
         }
         System.out.println("------------------------");
+
+
 
 
     /* Other Types

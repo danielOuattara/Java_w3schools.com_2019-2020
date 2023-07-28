@@ -33,7 +33,7 @@ can be used in the same way, they are built very differently.
 How the ArrayList works
 ------------------------
 The 'ArrayList' class has a regular array inside it.
-When an element is added, it is placed into the array.
+When an element is added, it is placed into that array.
 If the array is not big enough, a new, larger array is
 created to replace the old one and the old one is removed.
 
