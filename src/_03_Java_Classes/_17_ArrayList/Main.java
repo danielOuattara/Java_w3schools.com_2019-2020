@@ -21,7 +21,7 @@ public class Main {
     Create an ArrayList object called 'cars' that will store strings
     -----------------------------------------------------------------*/
 
-        ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+        ArrayList<String> cars = new ArrayList<>(); // Create an ArrayList object
 
     /* Add Items
     ------------
@@ -115,12 +115,12 @@ public class Main {
         above, we created elements (objects) of type "String".
         Remember that a String in Java is an object (not a primitive type).
         To use other types, such as int, you must specify an equivalent
-        wrapper class:Integer. For other primitive types, use:Boolean for boolean,
+        wrapper class: Integer. For other primitive types, use:Boolean for boolean,
         Character for char, Double for double, etc...
 
         Create an ArrayList to store numbers (add elements of type Integer): */
 
-        ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+        ArrayList<Integer> myNumbers = new ArrayList<>();
         myNumbers.add(10);
         myNumbers.add(15);
         myNumbers.add(20);

@@ -22,7 +22,7 @@ public class Main {
         The 'iterator()' method can be used to get an Iterator for
         any collection: */
 
-        // Make a collection
+        // First make a collection
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");

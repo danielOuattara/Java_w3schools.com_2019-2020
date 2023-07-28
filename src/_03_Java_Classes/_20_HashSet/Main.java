@@ -61,15 +61,14 @@ public class Main {
 
     /* HashSet Size
     ----------------
-    To find out how many items there are, use the 'size' method:*/
+    To find out how many items there are, use the 'size()' method:*/
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
         cars.add("BMW");
         cars.add("Mazda");
 
-        System.out.println(cars);
-        cars.size();
+        System.out.println("cars.size() = " + cars.size());
         System.out.println("------------------------");
 
     /* Loop Through a HashSet
@@ -105,7 +104,7 @@ public class Main {
         // Show which numbers between 1 and 10 are in the set
         for (int i = 1; i <= 10; i++) {
             if (numbers.contains(i)) {
-                System.out.println(i + " was found in the set.");
+                System.out.println(i + " was FOUND in the set.");
             } else {
                 System.out.println(i + " was NOT found in the set.");
             }

@@ -102,7 +102,7 @@ public class Main {
     If age was 20, you would not get an exception: */
 
         checkAge(20);
-    /* The output will be: Access granted - You are old enough! */
+        /* The output will be: Access granted - You are old enough! */
     }
 
     static void checkAge(int age) {

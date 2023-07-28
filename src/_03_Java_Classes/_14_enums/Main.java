@@ -24,7 +24,7 @@ public class Main {
     Accessing enum value
     ---------------------
     You can access enum constants with the dot syntax:
-    Level myVar = Level.MEDIUM;
+    Levels myVar = Levels.MEDIUM;
 
     Enum is short for "enumerations", which means "specifically listed".
 
