@@ -51,7 +51,7 @@ public class Main {
         Note: When you are done writing to the file, you should close it with the close() method: */
 
         try {
-            FileWriter myWriter = new FileWriter("filename.txt");
+            FileWriter myWriter = new FileWriter("filename_test.txt");
             myWriter.write("Files in Java might be tricky, but it is fun enough!");
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
