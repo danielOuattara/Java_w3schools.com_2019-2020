@@ -42,9 +42,10 @@ public class Java_04_Java_Method_Scope {
 
         // Code here CANNOT use z
 
-        /* A block of code may exist on its own, or it can belong to an if statement,
-           while statement or for statement.
-           In the case of for statements, variables declared in the statement itself
-           are also available inside the block's scope.  */
+        /* A block of code may exist on its own, or it can belong to an if
+           statement, while statement or for statement.
+           In the case of for statements, variables declared in the statement
+           itself are also available inside the block's scope.
+         */
     }
 }

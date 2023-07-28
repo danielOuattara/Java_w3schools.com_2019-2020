@@ -48,13 +48,14 @@ public class Java_02_Java_Method_Parameters {
 
         /* Parameters and Arguments
          =============================
-        Information can be passed to methods as parameter. Parameters act as variables inside the method.
-        Parameters are specified after the method name, inside the parentheses. You can add as many parameters
-        as needed, just separate them with a comma.
+        Information can be passed to methods as parameter. Parameters act as
+        variables inside the method. Parameters are specified after the method
+        name, inside the parentheses. You can add as many parameters as needed,
+        just separate them with a comma.
 
-        The following example has a method that takes a String called fname as parameter.
-        When the method is called, we pass along a first name, which is used inside the method
-        to print the full name: */
+        The following example has a method that takes a String called 'fname'
+        as parameter. When the method is called, we pass along a first name,
+        which is used inside the method to print the full name: */
 
         myMethod("Liam");  // Liam Refsnes
         myMethod("Jenny");  // Jenny Refsnes
@@ -63,25 +64,29 @@ public class Java_02_Java_Method_Parameters {
 
        /*
        When a parameter is passed to the method, it is called an argument.
-       So, from the example above: fname is a parameter, while Liam, Jenny and Anja are arguments.
+       So, from the example above: 'fname' is a parameter, while Liam, Jenny
+       and Anja are arguments.
 
        Multiple Parameters
        --------------------
-        You can have as many parameters as needed: */
+       You can have as many parameters as needed: */
 
         myMethod2("Liam", 5);  // Liam is 5
         myMethod2("Jenny", 8);  // Jenny is 8
         myMethod2("Anja", 31);  // Anja is 31
         System.out.println("---------------------------------------");
 
-        /* Note that when you are working with multiple parameters, the method call must have the same number
-        of arguments as there are parameters, and the arguments must be passed in the same order.
+        /* Note that when you are working with multiple parameters, the method
+        call must have the same number of arguments as there are parameters,
+        and the arguments must be passed in the same order.
 
         Return Values
         --------------
-        The void keyword, used in the examples above, indicates that the method should not return a value.
-        If you want the method to return a value, you can use a primitive data type (such as int, char, etc.)
-        instead of void, and use the return keyword inside the method: */
+        The 'void' keyword, used in the examples above, indicates that the
+        method should not return a value. If you want the method to return a
+        value, you can use a primitive data type (such as int, char, etc.)
+        instead of void, and use the return keyword inside the method:
+        */
 
         System.out.println(myMethod3(3));  // Outputs 8 (5 + 3)
         System.out.println(myMethod4(5, 3));  // Outputs 8 (5 + 3)
