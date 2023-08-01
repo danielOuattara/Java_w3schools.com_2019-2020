@@ -5,8 +5,9 @@ public class Main {
 
         /* Java Class Attributes
         ===========================
-        In the previous chapter, we used the term "variable" for x in the example (as shown below).
-        It is actually an 'attribute of the class'. Or you could say that class attributes are
+        In the previous chapter, we used the term "variable" for x in
+        the example, as shown below. It is actually an 'attribute of
+        the class'. Or you could say that class attributes are
         variables within a class:
 
         Example: Create a class called "Main" with two attributes x and y:
@@ -17,16 +18,17 @@ public class Main {
           int y = 3;
         }
 
-        Another term for class attributes is 'fields'.
-        So attributes and fields are the same.
+        Another term for class attributes is 'fields'. So attributes
+        and fields are the same.
 
         Accessing Class Attributes
         ---------------------------
-        You can access a class attributes by creating an object from that class, and then by using
-        the dot syntax (.):
+        You can access a class attributes by creating an object from
+        that class, and then by using the dot syntax (.):
 
-        The following example will create an object of the Main class, with the name myObj.
-        We use the x attribute on the object to print its value:
+        The following example will create an object of the Main class,
+        with the name myObj. We use the x attribute on the object to
+        print its value:
 
         Example: Create an object called "myObj" and print the value of x:
         //-----------------------------------------------------------
@@ -43,7 +45,7 @@ public class Main {
 
         Modify Classes Attributes
         ---------------------------
-        You can also modify attribute values:
+        You can also set attribute values:
 
         Example: Set the value of x to 40
         //-------------------------------------------
@@ -58,8 +60,8 @@ public class Main {
           }
         }
 
-         Or You can override an existing values:
-        Example: Change the value of x to 25:
+        Or You can override an existing values, example: change the
+        value of x to 25:
         //---------------------------------------------
 
         public class Main {
@@ -72,8 +74,8 @@ public class Main {
           }
         }
 
-        If you don't want the ability to override existing values, declare
-        the attribute as 'final':
+        If you don't want the ability to override existing values,
+        declare the attribute as 'final':
 
         //----------------------------------------------
 
@@ -87,18 +89,18 @@ public class Main {
           }
         }
 
+        The 'final' keyword is useful when you want a variable to
+        always store the same value, like PI (3.14159...).
 
-        The 'final' keyword is useful when you want a variable to always store the same value,
-        like PI (3.14159...).
-
-        The 'final keyword is called an "access modifier". You will learn more about these in the Java
-        Modifiers Chapter.
+        The 'final' keyword is called an "access modifier". You will
+        learn more about these in the Java Modifiers Chapter.
 
 
         Multiple Objects
         ------------------
-        If you create multiple objects of one class, you can change the attribute values in one object,
-        without affecting the attribute values in the other:
+        If you create multiple objects of one class, you can change the
+        attribute values in one object, without affecting the attribute
+        values in the other:
 
         Example: Change the value of x to 25 in myObj2, and leave x in myObj1 unchanged:
 
@@ -136,8 +138,8 @@ public class Main {
           }
         }
 
-        The next chapter will teach you how to create class methods and how to access
-        them with objects.
+        The next chapter will teach you how to create class methods
+        and how to access them with objects.
         */
     }
 }

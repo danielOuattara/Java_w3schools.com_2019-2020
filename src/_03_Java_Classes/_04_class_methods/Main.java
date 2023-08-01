@@ -67,12 +67,12 @@ public class Main {
         }
         //------------------------------------------------------
 
-        Note: You will learn more about these keywords (called modifiers) in the Java Modifiers chapter.
+        Note: You will learn more about modifiers in the Java Modifiers chapter.
 
         Access Methods With an Object
         ------------------------------
-        Create a Car object named myCar. Call the fullThrottle() and speed() methods on the myCar object,
-        and run the program:
+        Create a Car object named myCar. Call the fullThrottle() and speed()
+        methods on the myCar object, and run the program:
 
         //------------------------------------------------------
         public class Main {
@@ -97,18 +97,19 @@ public class Main {
         Example explained:
         1) We created a custom Main class with the class keyword.
         2) We created the fullThrottle() and speed() methods in the Main class.
-        3) The fullThrottle() method and the speed() method will print out some text,
-           when they are called.
+        3) The fullThrottle() method and the speed() method will print out some
+           text, when they are called.
         4) The speed() method accepts an int parameter called maxSpeed.
-        5) In order to use the Main class and its methods, we need to create an object
-           of the Main Class.
-        6) Then, go to the main() method, which you know by now is a built-in Java method
-           that runs your program (any code inside main is executed).
+        5) In order to use the Main class and its methods, we need to create an
+           object of the Main Class.
+        6) Then, go to the main() method, which you know by now is a built-in Java
+           method that runs your program (any code inside main is executed).
         7) By using the new keyword we created an object with the name myCar.
-        8) Then, we call the fullThrottle() and speed() methods on the myCar object, and
-           run the program using the name of the object (myCar), followed by a dot (.),
-           followed by the name of the method (fullThrottle(); and speed(200);). Notice that
-           we add an int parameter of 200 inside the speed() method.
+        8) Then, we call the fullThrottle() and speed() methods on the myCar object,
+           and run the program using the name of the object (myCar), followed by a
+           dot (.), followed by the name of the method (fullThrottle(); and
+           speed(200);). Notice that we add an int parameter of 200 inside the
+           speed() method.
 
         Remember that:
           > The dot (.) is used to access the object's attributes and methods.
@@ -119,12 +120,12 @@ public class Main {
 
         Using Multiple Classes
         ------------------------
-        Like we specified in the Classes chapter, it is a good practice to create an object of a class
-        and access it in another class.
+        As specified in the Classes chapter, it is a good practice to create an
+        object of a class and access it in another class.
 
-        Remember that the name of the java file should match the class name. In this example, we have
-        created two files in the same directory: Main.java & Second.java
-
+        Remember that the name of the java file should match the class name.
+        In this example, we have created two files in the same directory:
+        Main.java & Second.java
 
         //---------------------------------------------- Main.java
         public class Main {
@@ -140,7 +141,6 @@ public class Main {
 
 
         //---------------------------------------------- Second.java
-
         class Second {
 
             public static void main(String[] args) {
